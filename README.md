@@ -1,1 +1,1 @@
-# t-thirupathi.github.io
+# My personal website: thirupathi.me
