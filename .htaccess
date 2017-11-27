@@ -1,5 +1,5 @@
 RewriteEngine On 
 RewriteCond %{SERVER_PORT} 80
-RewriteCond %{HTTP_HOST} ^ncssltest\.info$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.ncssltest\.info$
-RewriteRule ^(.*)$ https://www.ncssltest.info/$1 [R,L]
+RewriteCond %{HTTP_HOST} ^thirupathi\.me$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.thirupathi\.me$
+RewriteRule ^(.*)$ https://www.thirupathi.me/$1 [R,L]
