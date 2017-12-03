@@ -1,33 +1,23 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-  <title>Thirupathi Thangavel's blog</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css" rel="stylesheet" type="text/css">
-  <link href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css" rel="stylesheet" type="text/css">
-</head>
+<div class="home">
 
-<body>
-  <header id="head">
-    <div class="container">
-      <div id="header_blob">
-        <div id="header_text">
-          <br>
-          <h1 data-aos="zoom-out-up" data-aos-delay="250">Coming Soon!</h1>
-        </div>
-      </div>
-      
-    </div>
-  </header>
-  
+  <h1 class="page-heading">Posts</h1>
 
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-  <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
-  <script type="text/javascript" src="../src/script.js"></script>
-</body>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-</html>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
