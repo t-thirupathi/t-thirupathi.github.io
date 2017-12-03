@@ -1,1 +1,1 @@
-# My personal website: thirupathi.me
+# My website: http://thirupathi.me
