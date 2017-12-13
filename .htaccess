@@ -1,3 +1,5 @@
+# This doesn't work because github pages doesn't support htaccess. 
+# Only static pages can be hosted.
 RewriteEngine On 
 RewriteCond %{SERVER_PORT} 80
 RewriteCond %{HTTP_HOST} ^thirupathi\.me$ [OR]
