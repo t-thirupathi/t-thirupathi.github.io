@@ -9,7 +9,7 @@ self.addEventListener('install', event => {
 
   event.waitUntil(
     caches.open(staticCacheName)
-      .then(cache => cache.addAll(["/shell-start.ac4a434172d6.inc", "/shell-end.ac4a434172d6.inc", "/offline.d989ddb2d13b.inc", "/error.ba6821d4f751.inc", "https://themes.googleusercontent.com/static/fonts/inconsolata/v6/BjAYBlHtW3CJxDcjzrnZCCwlidHJgAgmTjOEEzwu1L8.ttf", "https://themes.googleusercontent.com/static/fonts/ptserif/v5/EgBlzoNBIHxNPCMwXaAhYHYhjbSpvc47ee6xR_80Hnw.ttf", "/static/js/main.6e994df71e3d.js", "/static/css/all.aa2a0cc8a18d.css"]))
+      .then(cache => cache.addAll(["/shell-start.ac4a434172d6.inc", "/shell-end.ac4a434172d6.inc", "/offline.d989ddb2d13b.inc", "/error.ba6821d4f751.inc", "https://themes.googleusercontent.com/static/fonts/inconsolata/v6/BjAYBlHtW3CJxDcjzrnZCCwlidHJgAgmTjOEEzwu1L8.ttf", "https://themes.googleusercontent.com/static/fonts/ptserif/v5/EgBlzoNBIHxNPCMwXaAhYHYhjbSpvc47ee6xR_80Hnw.ttf", "/static/js/main.js", "/static/css/all.css"]))
   );
 });
 
