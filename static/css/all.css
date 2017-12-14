@@ -96,7 +96,6 @@ svg {
 .content-only,
 .page-width {
     position: relative;
-    top: -31px;
     padding: 0 20px
 }
 
@@ -217,13 +216,12 @@ svg {
 }
 
 .site-header>.inner {
-    padding-top: 75px;
+    padding-top: 50px;
     padding-left: 0
 }
 
 @media screen and (min-width: 530px) {
     .site-header>.inner {
-        padding-top: 135px
     }
 }
 
@@ -240,7 +238,8 @@ svg {
 
 .site-header .title,
 .site-header .about {
-    background: #0C9A1C;
+    background: #EDEDED;
+    color: #736774 !important;
     line-height: 1;
     font-family: "PT Serif", georgia, serif;
     display: inline-block;
@@ -289,7 +288,7 @@ svg {
 .h-1,
 .article-content h1,
 .about-me>h1 {
-    background: #800080;
+    background: #736774;
     color: #FFF;
     margin: 0;
     font-family: "PT Serif", georgia, serif;
@@ -322,7 +321,7 @@ svg {
 .h-2,
 .article-content h2,
 .about-me>section>h1 {
-    background: #0C9A1C;
+    background: #EDEDED;
     color: #FFF;
     margin: 35px 0 0;
     font-family: "PT Serif", georgia, serif;
@@ -359,7 +358,7 @@ svg {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 1rem;
-    border-left: 14px solid #800080;
+    border-left: 14px solid #736774;
     padding-left: 8px
 }
 
@@ -367,7 +366,7 @@ svg {
     .h-3,
     .article-content h3 {
         font-size: 1.2rem;
-        border-left: 19px solid #800080;
+        border-left: 19px solid #736774;
         padding-left: 12px
     }
 }
@@ -385,7 +384,7 @@ svg {
 .article-date {
     font-size: 0.8rem;
     display: block;
-    background: #C0C0C0;
+    background: #EDEDED;
     color: #000;
     padding: 6px 20px 5px 20px;
     margin: 0 0 0 -20px
@@ -456,7 +455,7 @@ svg {
 .full-figure>figcaption {
     font-size: 0.8rem;
     line-height: 1.4;
-    background: #C0C0C0;
+    background: #EDEDED;
     color: #000;
     padding: 6px 20px
 }
@@ -974,7 +973,7 @@ svg {
 }
 
 .form-rows .label {
-    background: #0C9A1C;
+    background: #EDEDED;
     color: #fff;
     vertical-align: middle;
     display: table-cell;
@@ -1058,7 +1057,7 @@ svg {
 }
 
 .blog-index .post-preview.first .h-2 {
-    background: #800080
+    background: #736774
 }
 
 
