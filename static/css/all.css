@@ -289,7 +289,7 @@ svg {
 .article-content h1,
 .about-me>h1 {
     background: #736774;
-    color: #FFF;
+    color: #736774 !important;
     margin: 0;
     font-family: "PT Serif", georgia, serif;
     font-size: 2.5rem;
