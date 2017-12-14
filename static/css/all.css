@@ -238,7 +238,7 @@ svg {
 
 .site-header .title,
 .site-header .about {
-    background: #EDEDED;
+    background: #ECECEC;
     color: #736774 !important;
     line-height: 1;
     font-family: "PT Serif", georgia, serif;
@@ -289,7 +289,7 @@ svg {
 .article-content h1,
 .about-me>h1 {
     background: #736774;
-    color: #736774 !important;
+    color: #fff;
     margin: 0;
     font-family: "PT Serif", georgia, serif;
     font-size: 2.5rem;
@@ -321,7 +321,7 @@ svg {
 .h-2,
 .article-content h2,
 .about-me>section>h1 {
-    background: #EDEDED;
+    background: #736774;
     color: #FFF;
     margin: 35px 0 0;
     font-family: "PT Serif", georgia, serif;
@@ -384,7 +384,7 @@ svg {
 .article-date {
     font-size: 0.8rem;
     display: block;
-    background: #EDEDED;
+    background: #ECECEC;
     color: #000;
     padding: 6px 20px 5px 20px;
     margin: 0 0 0 -20px
@@ -455,7 +455,7 @@ svg {
 .full-figure>figcaption {
     font-size: 0.8rem;
     line-height: 1.4;
-    background: #EDEDED;
+    background: #ECECEC;
     color: #000;
     padding: 6px 20px
 }
@@ -973,7 +973,7 @@ svg {
 }
 
 .form-rows .label {
-    background: #EDEDED;
+    background: #ECECEC;
     color: #fff;
     vertical-align: middle;
     display: table-cell;
