@@ -482,20 +482,18 @@ svg {
     flex: 0 0 50%
 }
 
-.with-my-new-bike {
+.my-face {
     margin-top: 10px
 }
 
-.with-my-new-bike h1 {
+.my-face h1 {
     position: relative;
     margin: 0;
-    padding: 76.27907% 0 0 0;
     outline: 10px solid #fff;
     background: #fff
 }
 
-.with-my-new-bike img {
-    position: absolute;
+.my-face img {
     top: 0;
     left: 0;
     width: 100%;
