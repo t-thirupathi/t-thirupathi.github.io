@@ -1,1 +1,1 @@
-# Thirupathi Thangavel's website: http://thirupathi.me
+# Thirupathi Thangavel's website: t-thirupathi.github.io
