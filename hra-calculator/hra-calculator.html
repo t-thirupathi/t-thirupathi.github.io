@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HRA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HRA Calculator</h1>
+        <div class="input-group">
+            <label for="basic_pay">Basic Pay:</label>
+            <input type="number" id="basic_pay" placeholder="Enter Basic Pay">
+        </div>
+        <div class="input-group">
+            <label for="hra">HRA:</label>
+            <input type="number" id="hra" placeholder="Enter HRA">
+        </div>
+        <div class="input-group">
+            <label for="rent">Rent:</label>
+            <input type="number" id="rent" placeholder="Enter Rent">
+        </div>
+        <div class="input-group">
+            <label for="metro_city">Is it a Metro City?</label>
+            <input type="checkbox" id="metro_city">
+        </div>
+        <button onclick="calculateHRA()">Calculate</button>
+        <div class="result" id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
